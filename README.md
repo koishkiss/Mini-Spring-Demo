@@ -44,7 +44,7 @@
 - 泛型与集合：`List`、`Map`、`HashMap`、`Enumeration`
 - 异常处理：`try/catch`、受检异常
 
-### 2. 注解（Annotation）
+### 2. *注解（Annotation）
 
 - 注解是**元数据**，不是可执行代码
 - `@Target` 决定注解能贴在哪里：`TYPE`（类）、`FIELD`（字段）、`METHOD`（方法）、`ANNOTATION_TYPE`（注解类型）
@@ -56,7 +56,7 @@
 
 > 如果 `@Retention` 不是 `RUNTIME`，`isAnnotationPresent(...)` 永远返回 `false`，框架就“看不见”注解。这是初学者最常踩的坑。
 
-### 3. 反射（Reflection）
+### 3. *反射（Reflection）
 
 本项目的每个核心步骤都依赖反射：
 
